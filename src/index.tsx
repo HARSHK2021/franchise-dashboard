@@ -1,6 +1,6 @@
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
-import { FinancialsTargets } from "./screens/FinancialsTargets/FinancialsTargets";
+import { FinancialsTargets } from "./components/FinancialsTargets";
 
 createRoot(document.getElementById("app") as HTMLElement).render(
   <StrictMode>
